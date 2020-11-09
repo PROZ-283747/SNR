@@ -7,11 +7,12 @@ channels:
 dependencies:
   - backcall=0.2.0=py_0
   - ca-certificates=2020.10.14=0
-  - certifi=2020.6.20=pyhd3eb1b0_3
+  - certifi=2020.6.20=py36_0
   - cffi=1.14.3=py36h2e103f8_1
   - chardet=3.0.4=py36hd36e781_1008
   - colorama=0.4.4=py_0
   - cryptography=3.2.1=py36he58ceb7_0
+  - cudatoolkit=11.0.221=h74a9793_0
   - decorator=4.4.2=py_0
   - freetype=2.10.4=hd328e21_0
   - idna=2.10=pyh9f0ad1d_0
@@ -70,6 +71,7 @@ dependencies:
   - pip:
     - absl-py==0.11.0
     - astor==0.8.1
+    - attrs==20.3.0
     - cached-property==1.5.2
     - definitions==0.2.0
     - gast==0.4.0
@@ -77,11 +79,14 @@ dependencies:
     - grpcio==1.33.2
     - h5py==3.1.0
     - importlib-metadata==2.0.0
+    - jsonschema==3.2.0
     - keras-applications==1.0.8
     - keras-preprocessing==1.1.2
     - markdown==3.3.3
+    - nbformat==5.0.8
     - numpy==1.19.4
     - protobuf==3.13.0
+    - pyrsistent==0.17.3
     - pyyaml==5.3.1
     - tb-nightly==1.14.0a20190603
     - tensorflow-gpu==2.0.0b0
