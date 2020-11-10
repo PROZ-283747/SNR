@@ -13,3 +13,7 @@ train_labels_file = output_datasets_dir + '/' + 'train_labels.tfrec'
 test_labels_file  = output_datasets_dir + '/' +  'test_labels.tfrec'
 val_labels_file   = output_datasets_dir + '/' +   'val_labels.tfrec'
 
+TEST_SPLIT_FACTOR = 0.2
+VAL_SPLIT_FACTOR  = 0.2
+
+IMG_SIZE = 192
